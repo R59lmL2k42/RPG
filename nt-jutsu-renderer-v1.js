@@ -4,7 +4,7 @@
  var NT_RAW={};
  var NT_READY=0;
  var NT_DB_SCRIPTS=[
-  "https://cdn.jsdelivr.net/gh/R59lmL2k42/RPG@main/nt-db-hozuki.js?v=1"
+  "https://cdn.jsdelivr.net/gh/R59lmL2k42/RPG@main/nt-db-jutsus.js?v=1"
  ];
 
  window.NT_addJutsus=function(input){
