@@ -1,17 +1,16 @@
-console.log("NT Hozuki JS cargado");
-
-NT_addJutsus({
-  "test_hozuki": {
-    "name": "Test Hozuki",
+NT_addJutsus(
+{
+  "houzukisuika2": {
+    "name": "Suika no Jutsu",
     "translation": "",
     "art": "Ninjutsu",
-    "type": "Instantánea",
-    "rank": "E",
+    "type": "Mantenida",
+    "rank": "A",
     "icon": "水",
     "color": "#4DA7C7",
-    "cost": "1 Chakra",
-    "attrs": "CCH 5",
-    "availability": "Libre",
+    "cost": "80 Chakra inicial + 32 mantenimiento/turno",
+    "attrs": "CCH 50",
+    "availability": "Exclusiva de clan",
     "clanSchool": "Hōzuki · Hiden",
     "damage": "Sin daño",
     "nature": "Suiton (Agua)",
@@ -19,8 +18,9 @@ NT_addJutsus({
     "seals": "Sin sellos",
     "range": "0 metros",
     "area": "Objetivo individual",
-    "cooldown": "0 turnos",
-    "effects": "Prueba externa.",
-    "description": "Prueba mínima de carga externa."
+    "cooldown": "3 turnos",
+    "effects": "El cuerpo del usuario es invulnerable a ataques físicos.\nEl cuerpo del usuario puede ser dañado por ataques puramente elementales, no sólidos.\nEl usuario recibe un 40% de daño adicional ante ataques Raiton.\nEl usuario recibe un 50% menos de daño ante ataques Katon.",
+    "description": "El usuario convierte la totalidad de su cuerpo en agua a voluntad. Cuando su cuerpo recibe un ataque físico, este lo atraviesa sin causar daño, y la parte atacada vuelve automáticamente a su forma original."
   }
-});
+}
+);
